@@ -1,0 +1,6 @@
+sudo apt-get install rabbitmq-server  ==> First, For Installing Rabbit Server
+sudo systemctl enable rabbitmq-server ==> Second, For activate/enable Rabbit Server
+sudo systemctl start rabbitmq-server ==> Third, For start Rabbit Server
+celery -A PROJECT_NAME worker -l info ==> Fourth, Ru this Command in terminal
+sudo rabbitmqctl stop  ==> For Stop the Server
+systemctl status rabbitmq-server ==> For configure Rabbit Server
